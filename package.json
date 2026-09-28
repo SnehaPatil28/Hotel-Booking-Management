@@ -1,0 +1,21 @@
+{
+  "name": "hotel-booking-management",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "server": "npm --prefix backend run start",
+    "start": "npm --prefix backend run start"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "lucide-react": "^1.48.0",
+    "mysql2": "^3.24.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
